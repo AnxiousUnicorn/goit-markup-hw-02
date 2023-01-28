@@ -209,6 +209,7 @@
 
 .footer-contact:hover {
   color: #2196f3;
+  cursor: pointer;
 }
 
 .footer-contact:focus {
