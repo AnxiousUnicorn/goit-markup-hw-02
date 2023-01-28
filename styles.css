@@ -1,11 +1,9 @@
 .navbar {
   background-color: white;
-  height: 80px;
 }
 
 .name {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.938;
@@ -21,8 +19,6 @@
 
 .navigation {
   color: #212121;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
@@ -32,13 +28,10 @@
 
 .navigation:hover {
   color: #2196f3;
-  cursor: pointer;
 }
 
 .contact {
   color: #757575;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
@@ -48,19 +41,20 @@
 
 .contact:hover {
   color: #2196f3;
-  cursor: pointer;
+}
+
+.contact:focus {
+  color: #2196f3;
 }
 
 .header {
   background-color: #2f303a;
   text-align: center;
-  color: white;
   height: 600px;
+  color: white;
 }
 
 .header-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 3.75;
@@ -73,9 +67,6 @@
   background-color: #2196f3;
   height: 50px;
   width: 200px;
-  color: white;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -87,8 +78,6 @@
 }
 
 .solutions-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1;
@@ -98,9 +87,6 @@
 }
 
 .solutions-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
@@ -108,8 +94,6 @@
 }
 
 .whatwedo-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 2.625;
@@ -123,8 +107,6 @@
 }
 
 .team-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 2.625;
@@ -134,8 +116,6 @@
 }
 
 .team-name {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
@@ -145,12 +125,47 @@
 }
 
 .team-position {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.categories {
+  background-color: #f5f4fa;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  height: 38px;
+}
+
+.categories:hover {
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+}
+
+.categories:active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.25;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-category {
+  font-size: 16px;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -162,7 +177,6 @@
 
 .footer-name {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.938;
@@ -178,9 +192,7 @@
 }
 
 .footer-address {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
@@ -188,11 +200,17 @@
 }
 
 .footer-contact {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover {
+  color: #2196f3;
+}
+
+.footer-contact:focus {
+  color: #2196f3;
 }
